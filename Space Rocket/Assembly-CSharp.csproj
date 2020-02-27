@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Asteroid.cs" />
     <Compile Include="Assets\Rocket.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/aescobar/Desktop/GitHub/Space-Rocket/Space Rocket/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
