@@ -9,7 +9,7 @@ public class Asteroid : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        endPos = new Vector3(-30, transform.position.y, 0);
+        endPos = new Vector3(-50, transform.position.y, 0);
     }
 
     // Update is called once per frame
