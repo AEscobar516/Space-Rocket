@@ -20,7 +20,7 @@ public class AsteroidSpawner : MonoBehaviour
             for (int i = 0; i < spawnPos.Length; i++)
             {
                 GameObject asteroid = Instantiate<GameObject>(asteroidPrefab, spawnPos[i], Quaternion.identity);
-                asteroid.name = "asteroid";
+                asteroid.name = "Asteroid";
                 wave.Add(asteroid);
             }
             wave[e].GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, 0);
